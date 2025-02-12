@@ -1,6 +1,17 @@
 # Oklou's debut album, "choke enough"
 !["Choke enough" by Oklou](https://media.pitchfork.com/photos/6798f0feeb0ff90fea7a127b/1:1/w_320,c_limit/Oklou:%20choke%20enough.jpg)
-## H2 Header
+## Code example
+```c
+#include <unistd.h>
+
+int  main()
+{
+  char  *lyric = "take me by the hand";
+
+  write(1, &lyric, 19);
+  return (0);
+}
+```
 ### H3 Header
 #### H4 Header
 ##### H5 Header
